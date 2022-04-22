@@ -16,6 +16,13 @@ const config = {
   organizationName: 'LabelA', // Usually your GitHub org/user name.
   projectName: 'frontend-wiki', // Usually your repo name.
 
+  plugins: [
+    [
+      require.resolve('@cmfcmf/docusaurus-search-local'),
+      {},
+    ],
+  ],
+
   presets: [
     [
       'classic',

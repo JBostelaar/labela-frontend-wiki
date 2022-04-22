@@ -5,6 +5,7 @@
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
+    "dev": "npm run start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
@@ -15,6 +16,7 @@
     "typecheck": "tsc"
   },
   "dependencies": {
+    "@cmfcmf/docusaurus-search-local": "^0.10.0",
     "@docusaurus/core": "2.0.0-beta.18",
     "@docusaurus/preset-classic": "2.0.0-beta.18",
     "@mdx-js/react": "^1.6.22",
