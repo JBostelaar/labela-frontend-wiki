@@ -111,19 +111,15 @@ const config = {
             items: [
               {
                 label: 'React Web',
-                to: '/docs/react-web',
+                to: '/docs/react-web/intro',
               },
               {
-                label: 'React Native',
-                to: '/docs/react-native',
+                label: 'React Mobile',
+                to: '/docs/react-mobile/intro',
               },
               {
                 label: 'Hooks',
-                to: '/hooks',
-              },
-              {
-                label: 'Troubleshooting',
-                to: '/troubleshooting',
+                to: '/docs/hooks/intro',
               },
             ],
           },
