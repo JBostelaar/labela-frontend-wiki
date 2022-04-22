@@ -39,6 +39,10 @@ const config = {
       require.resolve('@cmfcmf/docusaurus-search-local'),
       {},
     ],
+    [
+      require.resolve('docusaurus-plugin-sass'),
+      {},
+    ],
   ],
 
   presets: [
@@ -57,7 +61,7 @@ const config = {
           editUrl: 'https://github.com/sandervspl/frontend-wiki/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
