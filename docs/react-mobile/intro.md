@@ -23,3 +23,5 @@ And select **react-mobile**.
 ## Development
 
 The repositoy can be found [here](https://github.com/LabelA/prime-monorepo/tree/main/boilerplates/react-mobile).
+
+Jorn test
