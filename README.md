@@ -1,41 +1,11 @@
-# Website
+<p align="center">
+  <img src="https://github.com/LabelA/prime-monorepo/blob/main/prime-logo.png?raw=true" alt="prime-logo" width="250px" />
+</p>
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+# Label A Frontend Wiki
 
-### Installation
+The wiki of the Label A Frontend team. This wiki is built with [Docusaurus](https://docusaurus.io/). Check out their [docs](https://docusaurus.io/docs) for more information.
 
-```
-$ yarn
-```
+## VSCode Extensions
 
-### Local Development
-
-```
-$ yarn start
-```
-
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
-
-### Build
-
-```
-$ yarn build
-```
-
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+This repository comes with a few recommended extensions to install. These will be shown when first opening this project in VSCode. If not, go to the extensions tab and search for `@recommended` to see the list of recommended extensions.
