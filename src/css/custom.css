@@ -6,25 +6,39 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+  --la-color-green: #82BC00;
+  --la-color-black: #0F0F0F;
+  --la-color-anthracite: #2F2F2F;
+  --la-color-grey: #4C4C4C;
+  --la-color-stone: #989898;
+  --la-color-pearl: #F4F4F4;
+  --la-color-white: #FFFFFF;
+
+  --ifm-color-primary: #82BC00;
+  --ifm-color-primary-dark: #75a900;
+  --ifm-color-primary-darker: #689600;
+  --ifm-color-primary-darkest: #4e7100;
+  --ifm-color-primary-light: #8fc31a;
+  --ifm-color-primary-lighter: #9bc933;
+  --ifm-color-primary-lightest: #a8d04d;
+  --ifm-font-color-base: #0F0F0F;
+  --ifm-menu-color-background-active: var(--la-color-pearl);
+  --ifm-navbar-background-color: var(--la-color-white);
   --ifm-code-font-size: 95%;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+[data-theme="dark"] {
+  --ifm-color-primary: #82BC00;
+  --ifm-color-primary-dark: #75a900;
+  --ifm-color-primary-darker: #689600;
+  --ifm-color-primary-darkest: #4e7100;
+  --ifm-color-primary-light: #8fc31a;
+  --ifm-color-primary-lighter: #9bc933;
+  --ifm-color-primary-lightest: #a8d04d;
+  --ifm-font-color-base: var(--la-color-pearl);
+  --ifm-navbar-background-color: var(--la-color-anthracite);
+  --ifm-menu-color-background-active: var(--ifm-navbar-background-color);
 }
 
 .docusaurus-highlight-code-line {
@@ -34,6 +48,34 @@
   padding: 0 var(--ifm-pre-padding);
 }
 
-[data-theme='dark'] .docusaurus-highlight-code-line {
+body[data-theme="dark"] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+body .aa-DetachedSearchButton {
+  color: var(--la-color-stone);
+  background-color: var(--la-color-pearl);
+  border-color: var(--la-color-pearl);
+  margin-left: 10px;
+  margin-right: 5px;
+  height: 36px;
+  border-radius: 40px;
+  border-width: 2px;
+  transition: border-color 150ms;
+}
+
+body[data-theme="dark"] .aa-DetachedSearchButton {
+  background-color: var(--la-color-grey);
+  border-color: var(--la-color-grey);
+}
+
+body .aa-DetachedSearchButtonIcon {
+  color: var(--la-color-black);
+}
+
+body[data-theme="dark"] .aa-DetachedSearchButtonIcon {
+  color: var(--la-color-white);
+}
+
+body .aa-DetachedSearchButton:hover {
+  border-color: var(--la-color-green);
 }
