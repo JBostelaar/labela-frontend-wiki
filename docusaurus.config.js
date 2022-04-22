@@ -92,9 +92,15 @@ const config = {
             label: 'Hooks',
           },
           {
+            type: 'docSidebar',
+            position: 'left',
+            sidebarId: 'troubleshooting',
+            label: 'Troubleshooting',
+          },
+          {
             to: '/blog',
             label: 'Blog',
-            position: 'left',
+            position: 'right',
           },
           {
             href: 'https://github.com/sandervspl/frontend-wiki',
@@ -120,6 +126,10 @@ const config = {
               {
                 label: 'Hooks',
                 to: '/docs/hooks/intro',
+              },
+              {
+                label: 'Troubleshooting',
+                to: '/docs/troubleshooting/intro',
               },
             ],
           },
