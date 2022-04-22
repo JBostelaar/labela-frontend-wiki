@@ -61,9 +61,13 @@ const config = {
             position: 'left',
             label: 'Tutorial',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            to: '/blog',
+            label: 'Blog',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/sandervspl/frontend-wiki',
             label: 'GitHub',
             position: 'right',
           },
