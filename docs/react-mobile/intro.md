@@ -9,13 +9,13 @@ The boilerplate for rendering native apps on mobile phones using [react-native](
 ## Installation
 
 ```bash
-npx create-react-prime -b
+npx create-react-prime@latest -b
 ```
 
 or
 
 ```bash
-npm init react-prime -b
+npm init react-prime@latest -b
 ```
 
 And select **react-mobile**.

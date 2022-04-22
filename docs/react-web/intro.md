@@ -9,13 +9,13 @@ The boilerplate for rendering apps or static website in the browser using [Next.
 ## Installation
 
 ```bash
-npx create-react-prime -b
+npx create-react-prime@latest -b
 ```
 
 or
 
 ```bash
-npm init react-prime -b
+npm init react-prime@latest -b
 ```
 
 And select **react-web**.
