@@ -76,43 +76,58 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'React Web',
+                to: '/docs/react-web',
+              },
+              {
+                label: 'React Native',
+                to: '/docs/react-native',
+              },
+              {
+                label: 'Hooks',
+                to: '/hooks',
+              },
+              {
+                label: 'Troubleshooting',
+                to: '/troubleshooting',
               },
             ],
           },
           {
-            title: 'Community',
+            title: 'Frontend Team',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'GitLab',
+                href: 'https://gitlab.labela.nl/front-end',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: 'GitHub Label A',
+                href: 'https://github.com/LabelA',
               },
               {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'GitHub React Prime',
+                href: 'https://github.com/react-prime',
+              },
+              {
+                label: 'Prime Monorepo',
+                href: 'https://github.com/LabelA/prime-monorepo',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Company',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Website',
+                href: 'https://labela.nl',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Instagram',
+                href: 'https://instagram.com/labelanl',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
